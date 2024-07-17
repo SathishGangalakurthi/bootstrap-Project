@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Css */
+
+#headermenu {
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 4px 20px 0 rgba(32, 31, 31, 0.2);
+
+}
+.c-item {
+    height: 650px;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+
+.slidetitle {
+    font-size: 80px;
+    font-weight: 100;
+}
+
+.c-item h1 {
+    font-size: 70px;
+    font-weight: 200;
+}
+
+.c-item button {
+    background-color: #5FC7AE;
+    height: 50px;
+    width: 170px;
+    border-radius:50px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.c-item button:hover {
+    background-color: #90e1ce;
+    color: #1d7661;
+    box-shadow: 0 4px 40px 0 rgba(4, 61, 32, 0.2);
+}
+
+.clickbutton {
+    background-color: #5FC7AE;
+    height: 30px;
+    width: 50px;
+}
+
+
+
+
+/* Our Story Section Css */
+
+
+.ourstorytext h1 {
+    font-size: 50px;
+    font-weight: 200;
+    padding: 3% 0;
+    
+}
+
+
+.ourstorytext p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #575757;
+    padding-top: 20px;
+
+}
+
+/* About sections Css */
+
+.abouttext {
+    padding: 20vh 6vh;
+    
+}
+
+.abouttext h1 {
+    font-size: 50px;
+    font-weight: 200;
+    color: #fff;
+}
+
+
+.abouttext p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #e9e9e9;
+    padding: 3vh 10vh;
+}
+
+.abouttext button {
+    border: #90e1ce 2px solid;
+    height: 50px; width: 170px;
+    border-radius:50px;
+    font-size: 14px;
+    color: #eaeaea;
+    font-weight: 400;
+    background-color: #57bea6;
+    margin-top: 3%;
+}
+
+.abouttext button:hover {
+    background-color: #90e1ce;
+    color: #389781;
+}
+
+
+
+/* Team Cards */
+
+.team-member  .team-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.team-member .overlay {
+    position: absolute;
+    top: -20;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(166, 65%, 39%, 0.789);
+}
+
+.team-member .team-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
