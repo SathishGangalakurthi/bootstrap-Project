@@ -97,7 +97,7 @@ html, body { margin: 0; }
 }
 
 .ourvalues {
-    background-image: url(/images/15.jpg);
+    background-image: url("../images/15.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height:500px;
@@ -110,7 +110,7 @@ html, body { margin: 0; }
 
 
 .ourvaluestwo {
-    background-image: url(/images/16.jpg);
+    background-image: url("../images/16.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height:500px;
@@ -122,7 +122,7 @@ html, body { margin: 0; }
 }
 
 .ourvaluesthree {
-    background-image: url(/images/17.jpg);
+    background-image: url("../images/17.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height:500px;
@@ -204,7 +204,7 @@ html, body { margin: 0; }
 .cl-two p {
     font-size: 14px;
     font-weight: 200;
-    color: hsla(0, 0%, 100%, 0.918);
+    color: #fff8f8ea;
 }
 
 .cl-two hr {
@@ -341,7 +341,7 @@ html, body { margin: 0; }
 }
 
 .contactus {
-    background-image: url(/images/13.jpg);
+    background-image: url("../images/13.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height:500px;
