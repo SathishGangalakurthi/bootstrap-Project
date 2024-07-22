@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./CSS/style.css" />
+
+
+  
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!-- Fontawesome CDNJS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<!-- Boostrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+<!-- Header Section Starts-->
+<!-- Navbar -->
+<section id="headermenu">
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+        <div class="container">
+            <a href="#" class="navbar-brand"><img src="./images/asana-logo.png" alt="" height="30px"></a>    
+            
+            
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navmenu"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav headermenulinks ms-auto">
+                    <li class="nav-item headermenulinks">
+                        <a href="#" class="nav-link">HOME</a>
+                    </li>
+                    <li class="nav-item headermenulinks">
+                        <a href="#about" class="nav-link">ABOUT</a>
+                    </li>
+                    <li class="nav-item headermenulinks">
+                        <a href="#store" class="nav-link">SHOP</a>
+                    </li>
+                    <li class="nav-item headermenulinks">
+                        <a href="#blog" class="nav-link">BLOG</a>
+                    </li>
+                    <li class="nav-item headermenulinks">
+                        <a href="#contact" class="nav-link">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</section>
+        
+<!-- Carousel Section -->
+
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2 " aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active c-item" data-bs-interval="2000">
+                <img src="./images/01.jpg" class="d-block w-100 c-img" alt="..." >
+                <div class="carousel-caption d-none d-md-block justify-content-center  mb-5">
+                  <h1>DO YOUR PRACTISE AND <br/>ALL IS COMING!</h1>
+                  <button type="button" class="btn">LEARN MORE</button>
+                </div>
+              </div>
+              <div class="carousel-item c-item" data-bs-interval="2000">
+                <img src="./images/003.jpg" class="d-block w-100 c-img" alt="..." >
+                <div class="carousel-caption d-none d-md-block justify-content-center  mb-5">
+                  <h1>Transform your life<br/>with yoga</h1>
+                  <button type="button" class="btn">LEARN MORE</button>
+                </div>
+              </div>
+              <div class="carousel-item  c-item" data-bs-interval="2000">
+                <img src="./images/03.jpg" class="d-block w-100 c-img" alt="..." >
+                <div class="carousel-caption d-none d-md-block justify-content-center mb-5">
+                    <h1>TAKING YOGA BEYOND<br/>THE MAT TRAINING</h1>
+                    <button type="button" class="btn" >LEARN MORE</button>
+                </div>
+              </div>
+             
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+
+<!-- About Us Section -->
+<section id="about">
+<div class="container">
+  <div class="row row-cols-md-1 mt-5 pt-5 justify-content-center d-flex align-items-center">
+    <div class="col-lg-6 my-5 px-5 text-center g-0">
+      <div class="aboutustext">
+        <h1>About Us</h1>
+        <img src="./images/lineblack.png" alt="" height="4px" />
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <P>Duis aute irure dolor in reprehenderit in voluptate velit. Except sint fdfdf occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</P>
+      </div>
+    </div>
+    <div class="col-lg-6 ourstoryimage my-5 px-5 g-0">
+      <img src="./images/05.jpg" alt="" class="img-fluid" />
+    </div>    
+  </div>
+</div>
+</section>
+
+<div class="container-fluid ourvaluesheading text-center mt-5 pt-5">
+  <h1>Our Values</h1>
+</div>
+<div class="container-fluid ourvalues text-center py-5">
+  <h1>Embrace Inclusivity</h1>
+</div>
+<div class="container ourvaluespara text-start  my-5 p-5">
+<p>We believe that yoga is for everyone, regardless of age, fitness level, or background. Our studio is a welcoming space 
+  where diversity is celebrated, and every individual feels valued and supported on their unique journey.</p>
+</div>
+
+<div class="container-fluid ourvaluestwo text-center py-5">
+  <h1>Cultivate Mindfulness</h1>
+</div>
+<div class="container ourvaluespara text-start  my-5 p-5">
+<p>We emphasize the importance of mindfulness in all aspects of life. Our classes are designed to help you cultivate a deeper
+  connection with your mind, body, and spirit, promoting inner peace, balance, and a sense of purpose in everyday life.</p>
+</div>
+
+<div class="container-fluid ourvaluesthree text-center py-5">
+  <h1>Foster Growth</h1>
+</div>
+<div class="container ourvaluespara text-start  my-5 p-5">
+<p>We are dedicated to personal development and continuous learning. Our experienced instructors provide guidance and encouragement,
+  helping you to challenge your limits, discover new strengths, and achieve your full potential both on and off the mat.</p>
+</div>
+
+
+<!-- Store Section -->
+
+<section id="store">
+  <div class="container align-content-center justify-content-center">
+    <h1>Yoga shop</h1>
+    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-5 mb-3">
+      <div class="col-lg-3">
+        <div class="card card-images h-100">
+          <img src="./images/shop01.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title ">Lifelong LLYM92 Yoga mat for Women & Men EVA Material 4mm Grey Anti Slip for yoga</h6>
+            <hr>
+            <div class="price-group d-flex justify-content-between">
+              <h5>Buy @ ₹2,050</h5>
+            <button class="btn btn-outline-success">Add to Cart</button>
+            </div>  
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card card-images h-100">
+          <img src="./images/shop02.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title ">lanade-4 inches-Buddhist Prayer Instrument With Striker Stick Meditation Bowl</h6>
+            <hr>
+            <div class="price-group d-flex justify-content-between">
+              <h5>Buy @ ₹989</h5>
+            <button class="btn btn-outline-success">Add to Cart</button>
+            </div>  
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card card-images h-100">
+          <img src="./images/shop03.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title ">4MM Yoga Mat + Yoga Strap For Men, Women, Kids | Anti-Slip Extra thick</h6>
+            <hr>
+            <div class="price-group d-flex justify-content-between">
+              <h5>Buy @ ₹750</h5>
+            <button class="btn btn-outline-success">Add to Cart</button>
+            </div>  
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card card-images h-100">
+          <img src="./images/shop04.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title ">Lifelong LLYM92 Yoga mat for Women & Men EVA Material 4mm Grey Anti Slip</h6>
+            <hr>
+            <div class="price-group d-flex justify-content-between">
+              <h5>Buy @ ₹1,240</h5>
+            <button class="btn btn-outline-success">Add to Cart</button>
+            </div>  
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card card-images h-100">
+          <img src="./images/shop05.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title ">Yoga Mats For Women yoga mat for men Exercise mat for home workout yoga mat</h6>
+            <hr>
+            <div class="price-group d-flex justify-content-between">
+              <h5>Buy @ ₹3,146</h5>
+            <button class="btn btn-outline-success">Add to Cart</button>
+            </div>  
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card card-images h-100">
+          <img src="./images/shop06.jpg" class="card-img-top" alt="...">
+          <div class="card-body card_area">
+            <h6 class="card-title ">Yoga Belt for Women Men, 5 Loops Yoga Strap for Stretching - Yoga at home</h6>
+            <hr>
+            <div class="price-group d-flex justify-content-between">
+              <h5>Buy @ ₹1,089</h5>
+            <button class="btn btn-outline-success">Add to Cart</button>
+            </div>  
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card card-images h-100">
+          <img src="./images/shop07.jpg" class="card-img-top" alt="...">
+          <div class="card-body card_area">
+            <h6 class="card-title ">Homie Yoga mat for Women & Men Anti Slip for Gym Workout, 6mm durable</h6>
+            <hr>
+            <div class="price-group d-flex justify-content-between">
+              <h5>Buy @ ₹645</h5>
+            <button class="btn btn-outline-success">Add to Cart</button>
+            </div>  
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="container loadmore text-center my-5 pt-2">
+      <a href="">Load more</a>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- About Us 2 columns Section -->
+
+
+<div class="container-fluid fourcolumns" id="blog">
+  <div class="row row-cols-1 row-cols-md-1">
+    <div class="col-lg-6 mx-auto p-0 g-0" >
+      <img src="./images/04.jpg" alt="" class="img-fluid"/>
+    </div>
+    <div class="col-lg-6 text-center justify-content-around align-items-center align-content-center " style="background-color: #5FC7AE; ">
+      <div class="abouttext">
+        <h1>TAKING YOGA BEYOND THE MAT TRAINING</h1>
+        <img src="./images/line.png" alt="" height="5px" />
+        <p>In the sanctuary of a yoga studio, a retreat or a tranquil spot in the countryside, it’s easier.</p>
+        <button type="button" class="btn">LEARN MORE</button>
+      </div>
+    </div>
+  </div>
+  <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
+    <div class="col-lg-3 cl-one g-0 ">
+      <img src="./images/12.jpg" alt="" class="img-fluid" />
+    </div>
+    <div class="col-lg-3 cl-two position-relative px-5 py-5">
+      <h1>how yoga can change your life</h1>
+      <hr/>
+      <p>Yoga enhances physical health, mental clarity, and emotional balance effortlessly.</p>
+      <button class="readmorebtn position-absolute bottom-0 start-0 px-5 my-3">Read more</button>
+      <i class="readmore-icon fa-solid fa-arrow-right position-absolute bottom-0 end-0 my-3 px-5"></i>
+    </div>
+    <div class="col-lg-3 cl-three g-0">
+      <img src="./images/13new.jpg" alt="" class="img-fluid" />
+    </div>
+    <div class="col-lg-3 cl-four position-relative px-5 py-5">
+      <h1>Living skilfully by making yoga</h1>
+      <hr/>
+      <p>Yoga fosters balance, mindfulness, resilience, and inner peace.</p>
+      <button class="readmorefourbtn position-absolute bottom-0 start-0 px-5 my-3">Read more</button>
+      <i class="readmore-icon fa-solid fa-arrow-right position-absolute bottom-0 end-0 my-3 px-5"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<!-- Contact Us Section -->
+
+<div class="container-fluid contactus text-center py-5">
+</div>
+<section id="contact"></section>
+<div class="container">
+  <div class="row row-cols-md-1 py-5 mt-5 justify-content-center d-flex align-items-center">
+    <div class="col-lg-6 ourstoryimage px-5 g-0">
+      <img src="./images/14.jpg" alt="" class="img-fluid" />
+    </div> 
+    <div class="col-lg-6 px-5 text-start g-0">
+      <div class="aboutustext">
+        <h1>Contact Us</h1>
+        <img src="./images/lineblack.png" alt="" height="4px" />
+
+        <div class="contactitems d-flex">
+          <p><i class="fa-solid fa-phone"></i><span class="px-3">+91 986 896 5896</span></p>
+        </div>
+        <div class="contactitems d-flex">
+          <p><i class="fa-solid fa-envelope"></i><span class="px-3">Support@asana.com</span></p>
+        </div>
+        <div class="contactitems d-flex text-center align-items-center">
+          <p><i class="fa-solid fa-map-pin"></i><span class="px-4">Flat No.2-58/A, Sky Avenue, Nagar, Visakhapatnam - 530020 </span></p>
+        </div>
+      </div>
+    </div>  
+  </div>
+</div>
+
+<!-- Footer Section -->
+
+<footer id="footersection">
+<div class="container-fluid">
+  <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3 ">
+    <div class="col-lg-3 socialicons py-5 text-center" style="background-color: #3d3d3d; font-family: poppins, sans-serif;">
+      <p>Follow us on:</p>
+      <i class="fa-brands fa-square-instagram"></i>
+      <i class="fa-brands fa-facebook mx-3"></i>
+      <i class="fa-brands fa-x-twitter"></i>
+      <i class="fa-brands fa-youtube mx-3"></i>
+      <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <div class="col-lg-6 py-5" style="background-color: #3d3d3d;">
+      <ul class="nav footerlinks justify-content-center">
+        <li class="nav-item">
+            <a href="#" class="nav-link">HOME</a>
+        </li>
+        <li class="nav-item">
+            <a href="#about" class="nav-link">ABOUT</a>
+        </li>
+        <li class="nav-item">
+            <a href="#store" class="nav-link">SHOP</a>
+        </li>
+        <li class="nav-item">
+            <a href="#blog" class="nav-link">BLOG</a>
+        </li>
+        <li class="nav-item">
+            <a href="#contact" class="nav-link">CONTACT</a>
+        </li>
+    </ul>
+    </div>
+
+  <div class="col-lg-3 py-5" style="background-color: #3d3d3d;">
+    <nav class="navbar navbar-light justify-content-center">
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="font-family: poppins, sans-serif;">
+        <button class="btn btn-outline-success" type="submit" style="font-family: poppins, sans-serif;">Search</button>
+      </form>
+    </nav>
+  </div>
+</div>
+</div>
+
+<div class="container-fluid footerbar mb-5 text-center justify-content-center text-light" style="font-weight: 200; font-size: 12px; padding-bottom: 10px;">
+<p>HTML | CSS | BOOTSTRAP Project - Designed and developed by <strong>Sathish G</strong><br/> @ Tech Mahindra Smart Academy</p>
+</div>
+</footer>
+
+<a href="#"><i class="fa-solid fa-arrow-up gotop"></i></a>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
