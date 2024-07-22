@@ -141,12 +141,13 @@ html, body {
 }
 
 
-.ourvalues h1, .ourvaluestwo h1, .ourvaluesthree h1  {
+.ourvalues h1, .ourvaluestwo h1, .ourvaluesthree h1, .contactus h1  {
     font-family: "poppins", sans-serif;
     font-size: 60px;
     font-weight: 200;
     color: #eaeaea;
     text-transform: uppercase;
+    text-shadow: 2px 2px 6px #000000;
 }
 
 /* About sections Css */
@@ -248,10 +249,6 @@ html, body {
     border: none;
 }
 
-.readmore-icon:hover {
-    color: #ffffff;
-    cursor: pointer;
-}
 
 .cl-four h1 {
     font-family: "poppins", sans-serif;
@@ -291,12 +288,17 @@ html, body {
 }
 
 .readmorefourbtn:hover {
-    color: #2d5544;
+    color: #000000;
+    cursor: pointer;
+}
+
+.readmore-icon:hover {
+    color: #000000;
     cursor: pointer;
 }
 
 .readmorefour-icon:hover {
-    color: #2d5544;
+    color: #000000;
     cursor: pointer;
 }
 
@@ -354,12 +356,13 @@ html, body {
 
 /* Contact Us */
 
-.contactus h1 {
+#contactus h1 {
     font-family: "poppins", sans-serif;
     font-size: 40px;
     font-weight: 200;
     color: #3d3d3d; 
     text-transform: uppercase; 
+    align-items: center;
 }
 
 .contactus {
@@ -370,7 +373,18 @@ html, body {
     height:500px;
     background-position: center;
     background-attachment: fixed;
+    align-content: center;
 
+}
+
+#contact p {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#contact p:hover {
+    color: #1d7661;
+    cursor: pointer;
 }
 
 
@@ -401,6 +415,7 @@ html, body {
 
 .socialicons i:hover {
     color:#57bea6;
+    cursor: pointer;
 }
 
 
